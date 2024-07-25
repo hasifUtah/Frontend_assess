@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://mulahpictures.s3-ap-southeast-1.amazonaws.com/mulah_logo.png" class="logo_margin logo_width">
+
+        <h1 class="mulah-r__welcome-header">Registration</h1>
+
+        <div class="registration-container">
+            <div>
+                <p class="registration-title">Name:</p>
+                <input class="registration-input" type="text" id="name" placeholder="Name">
+                <p class="warning-text">*Please insert your  name</p>
+            </div>
+            <div>
+                <p class="registration-title">Birthday:</p>
+                <input class="registration-input" type="date" id="birthday">
+                <p class="warning-text">*Please insert your birthday</p>
+            </div>
+            <div>
+                <p class="registration-title">Email:</p>
+                <input class="registration-input" type="email" id="email" placeholder="Email Address">
+                <p class="warning-text">*Please insert a valid email address</p>
+            </div>
+            <div class="email-checkbox__container" >
+                <label class="email-checkbox-label" >
+                    <input type="checkbox" class="email-checkbox" >
+                    <span class="email-checkbox-message" >No email address</span>
+                </label>
+            </div>
+            <button class="submit-btn" onclick="submitDetails()">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

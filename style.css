@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#details{
+    padding:10px ;
+    margin: 10px 10px;
+}
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 640px;
+}
+
+input {
+    width: 80%;
+    padding:10px ;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    width: 80%;
+    align-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff7300;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #df8236;
+}
+
+.logo_width {
+    width: 150px;
+    max-width: 150px;
+}
+
+.logo_margin {
+    margin: 30px 0 30px 0;
+}
+
+.mulah-r__input {
+    width: 100% !important;
+    padding: 0 0 15px 0 !important;
+}
+.mulah-r__input input {
+    font-weight: 500 !important;
+    height: 41px !important;
+    position: relative !important;
+    flex: 2 !important;
+    border-bottom: solid 1px #646464 !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    box-sizing: border-box !important;
+    color: #495057 !important;
+    outline: none !important;
+    width: 100% !important;
+    padding: 1px 2px !important;
+    background-clip: padding-box !important;
+    border-radius: 0 !important;
+    background: #f5f5f5 !important;
+}
+.mulah-r__input input {
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-align: left !important;
+}
+.mulah-r__input__select-container {
+    border-bottom: solid 1px #646464 !important;
+    text-align: left !important;
+    background: #f5f5f5 !important;
+    display: flex !important;
+    position: relative !important;
+}
+
+.mulah-r__input__select {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+}
+
+.mulah-r__input-container {
+    text-align: left !important;
+    padding: 0 !important;
+    color: #aaaaaa !important;
+}
+
+
+select.minimal {
+    margin: 0;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+}
+.mulah-r__input__select select {
+    border: none;
+    background: #f5f5f5 !important;
+}
+.mulah-r__select {
+    width: 57px !important;
+    max-width: 57px !important;
+    padding: 0 !important;
+    -webkit-appearance: auto !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: rgb(100, 100, 100) !important;
+    font-family: roboto;
+}
+.mulah-r__welcome-header {
+    font-size: 32px !important;
+    color: #646464 !important;
+    line-height: 1.2 !important;
+    font-weight: 600 !important;
+    box-sizing: border-box !important;
+    margin: 0 0 1rem 0 !important;
+    font-family: minion !important;
+}
+
+.mulah-r-note{
+    color: #ff7300;
+}
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;         
+}
+
+.registration-title--height, .registration-title{
+    text-align: left;
+    margin: 2rem 0 .3rem 1rem;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.registration-input {
+    width: 95%;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    margin: 2px 0 0;
+    background-color: #fff;
+    height: 45px;
+    font-size: 24px;
+    color: #646464;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.submit-btn{
+    background-color: #f47521;
+    border-radius: 90px;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    width: 362px;
+    height: 50px;
+    outline: none;
+    margin-top: 2rem;
+}
+.warning-text {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+.email-checkbox__container {
+    text-align: left;
+}
+.email-checkbox-label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+.done-button {
+    margin-bottom: 10px;
+}
+.back-button {
+    background-color: #616b76;
+    margin-bottom: 10px;
+
+}

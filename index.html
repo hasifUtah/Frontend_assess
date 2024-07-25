@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mulah-r__input-container">
+        <img src="https://mulahpictures.s3-ap-southeast-1.amazonaws.com/mulah_logo.png" class="logo_margin logo_width">
+        <h1 class="mulah-r__welcome-header">Hello, Welcome!</h1>
+        <p class="mulah-r-note">Check your loyalty point and rewards</p>
+        <div class="mulah-r__input">
+            <div class="mulah-r__input__select">
+                <div class="mulah-r__input__select-container">
+                    <select style="height: 40px !important" class="mulah-r__select minimal" data-hello-target="countryCode">
+                        <option value="MY">+60</option>
+                        <option value="ID">+62</option>
+                    </select>
+                </div>
+                <input style="margin-left:10px!important;font-size:16px !important"  type="text" id="phone" placeholder="+Enter your mobile number" maxlength="12">
+                <i class="fa fa-check-circle" data-hello-target="tick"></i>
+            </div>
+            <button class="submit-btn"onclick="checkLoyaltyPoints()">Check Loyalty Points</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
