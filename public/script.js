@@ -44,5 +44,5 @@ function goBack() {
 }
 
 function goDone() {
-    window.location.href = 'index.html.html'; // Adjust the URL as needed
+    window.location.href = 'index.html'; // Adjust the URL as needed
 }
